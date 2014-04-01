@@ -57,4 +57,4 @@ Please report any bugs or issues to:
 [talktorohit54@gmail.com](mailto:talktorohit54@gmail.com)
 
 ##License
-[MIT License](https://github.com/rohitsinha54/WordJumbleSolver/blob/master/README.md)
+[MIT License](https://github.com/rohitsinha54/WordJumbleSolver/blob/master/LICENSE)
