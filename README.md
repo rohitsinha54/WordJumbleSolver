@@ -9,6 +9,7 @@ This program is developed for coding challenge from [Twice](https://www.liketwic
 - WordJumbleSolver then build a dictionary from this file where each word is hashed with the product of prime number associated to its characters. Since, products of primes are unique this gurantees that all the word which fall under the same key will be [anagrams](http://en.wikipedia.org/wiki/Anagram)
 - WordJumbleSolver solves the jumble word by generating all possible combination of the jumbled word and finding its anagrams from the dictionary. 
 - Here is an example
+
 >jumbled word : ogd
 >
 > Word Jumble Solver: Here are the valid words -
@@ -18,7 +19,7 @@ do
 
 ## File Structure
 | Filename        | Description          |
-| ------------- |:-------------:|
+| ------------- |-------------|
 | App.java      | The main Word Jumble Solver class |
 | AlphabetToPrimeMap.java      | Stores alphabet to prime number mapping and calculates prime factors for words      | 
 | Combinatorics.java | Combinatorics class which generates all possible combination of string     |
@@ -36,14 +37,14 @@ Clone the repository on you local machine and from the command line excute to fo
 
 >r******@R*****-MacBook-Pro> mvn package
 >
->r******@R*****-MacBook-Pro> java -cp target/WordJumbleSolver-1.0-SNAPSHOT.jar com.rohitsinha.wordjumble.App ogd
+>r******@R*****-MacBook-Pro> java -cp target/WordJumbleSolver-1.0-BETA.jar com.rohitsinha.wordjumble.App ogd
 
 On non Un*ix operating system you must provide the path to the words file (a newline delimited file containing all the words). In this case the command will be
 
->java -cp target/WordJumbleSolver-1.0-SNAPSHOT.jar com.rohitsinha.wordjumble.App filepath ogd
+>java -cp target/WordJumbleSolver-1.0-BETA.jar com.rohitsinha.wordjumble.App filepath ogd
 
 ## Testing
-The program has been tested on following opersating systems:
+The program has been tested on following operating systems:
 
 1. Mac OSX 10.9.2
 2. Ubuntu 13.10
